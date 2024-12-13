@@ -3,7 +3,7 @@ import numpy as np
 
 # Initialize the camera streams (IP camera URLs)
 CAMERA_IPS = [
-    "rtsp://username:password@192.168.0.62:554/stream1"  # Replace with your RTSP credentials and IP
+    "rtsp://afr117:fueradeliga13@@@AAA131313@192.168.0.62:554/stream1"  # Replace with your RTSP credentials and IP
 ]
 
 # Process live video stream
