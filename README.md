@@ -2,20 +2,20 @@
 ```markdown
 # Face Match App (Python + OpenCV)
 
-![App screenshot](docs/screenshot-face-match.png)
+![App screenshot](docs/screenshot face match.png)
 
 An experiment in face recognition against a small gallery of known identities. It loads encodings from `models/known_faces/` and flags matches from a webcam or video file with simple, readable code.
 
-> **Ethics & compliance:** Always respect local laws and privacy. Obtain consent where required, disclose usage, and design for opt-in.
+> **Ethics & compliance:** Always respect local laws and privacy. Obtain consent where required, disclose usage, and design for opt in.
 
 ## Why this exists (the story)
 I needed a minimal, hackable baseline to test thresholding, lighting variations, and simple alerting without pulling in heavyweight frameworks. This repo is my clean sandbox for controlled experiments.
 
 ## Features (implemented)
 - Load known faces from `models/known_faces/<person>/*.jpg`
-- Auto-build face encodings
+- Auto build face encodings
 - Live webcam or video file inference
-- On-screen labels with distance thresholding
+- On screen labels with distance thresholding
 - Simple logging of positive matches
 
 ## Roadmap (next)
@@ -64,7 +64,5 @@ Developer
 I’m Alfred Figueroa, ML-leaning full-stack dev focused on useful automation.
 
 LinkedIn: https://www.linkedin.com/in/alfred-figueroa-rosado-10b010208
-
-Twitter/X: https://twitter.com/your_handle
 
 Portfolio Project repo: https://github.com/afr117/portfolio
