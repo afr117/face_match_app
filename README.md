@@ -98,6 +98,8 @@ python -m streamlit run app.py --server.port 5000
 Step 4: Open in Browser
 After running the command, you'll see:
 
+If app isnt being display in browser try ( http://localhost:5000 )
+
 Local URL: http://localhost:5000
 Network URL: http://192.168.x.x:5000
 Open the Local URL in your web browser (Chrome or Edge recommended).
