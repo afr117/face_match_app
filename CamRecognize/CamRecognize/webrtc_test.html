@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Test</title>
+</head>
+<body>
+    <h1>Quick Camera Test</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <p id="status">Click "Test Camera" to check if your browser can access the camera</p>
+    <button onclick="testCamera()">Test Camera</button>
+    
+    <script>
+        async function testCamera() {
+            const status = document.getElementById('status');
+            const video = document.getElementById('video');
+            
+            try {
+                status.textContent = 'Requesting camera access...';
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                video.srcObject = stream;
+                status.textContent = '✅ Camera working! If you see yourself above, your camera is fine.';
+                status.style.color = 'green';
+            } catch (err) {
+                status.textContent = '❌ Error: ' + err.message;
+                status.style.color = 'red';
+            }
+        }
+    </script>
+</body>
+</html>

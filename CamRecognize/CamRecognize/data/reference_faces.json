@@ -1,0 +1,46 @@
+{
+  "1al": {
+    "image_path": "data/reference_faces/1al.jpg",
+    "face_path": "data/reference_faces/1al_face.jpg",
+    "face_coordinates": [
+      487,
+      291,
+      321,
+      321
+    ],
+    "added_date": "2025-10-23T00:07:10.346585"
+  },
+  "2": {
+    "image_path": "data/reference_faces\\2.jpg",
+    "face_path": "data/reference_faces\\2_face.jpg",
+    "face_coordinates": [
+      778,
+      425,
+      84,
+      84
+    ],
+    "added_date": "2025-10-22T21:04:08.929686"
+  },
+  "3": {
+    "image_path": "data/reference_faces\\3.jpg",
+    "face_path": "data/reference_faces\\3_face.jpg",
+    "face_coordinates": [
+      315,
+      175,
+      415,
+      415
+    ],
+    "added_date": "2025-10-22T21:04:23.822469"
+  },
+  "4": {
+    "image_path": "data/reference_faces\\4.jpg",
+    "face_path": "data/reference_faces\\4_face.jpg",
+    "face_coordinates": [
+      463,
+      185,
+      323,
+      323
+    ],
+    "added_date": "2025-10-22T21:04:37.413519"
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "1al",
+    "confidence": 0.6317266821861267,
+    "percentage": 63.17266845703125,
+    "camera_name": "Webcam",
+    "timestamp": "2025-10-22T21:05:53.305681",
+    "image_path": "data/detections\\detection_20251022_210553_0.jpg",
+    "matched_face": "1al",
+    "all_comparisons": [
+      {
+        "reference_name": "1al",
+        "confidence": 0.6317266821861267,
+        "percentage": 63.17266845703125
+      },
+      {
+        "reference_name": "4",
+        "confidence": 0.6034380793571472,
+        "percentage": 60.343807220458984
+      },
+      {
+        "reference_name": "3",
+        "confidence": 0.32818862795829773,
+        "percentage": 32.81886291503906
+      },
+      {
+        "reference_name": "2",
+        "confidence": -0.038608524948358536,
+        "percentage": -3.8608524799346924
+      }
+    ],
+    "face_coordinates": [
+      
